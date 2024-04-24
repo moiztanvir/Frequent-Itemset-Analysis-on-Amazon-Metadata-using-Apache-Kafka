@@ -16,6 +16,7 @@ This report outlines the development and implementation of a real-time frequent 
 - [JSON](https://www.json.org/json-en.html)
 - [Kafka Producer](https://kafka-python.readthedocs.io/en/master/apidoc/KafkaProducer.html)
 - [Kafka Consumer](https://kafka-python.readthedocs.io/en/master/apidoc/KafkaConsumer.html)
+- [MongoDB](https://www.mongodb.com/docs/atlas/)
 
 ## Our Approach
 
