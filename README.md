@@ -1,12 +1,23 @@
 # Frequent-Itemset-Analysis-on-Amazon-Metadata-using-Apache-Kafka
 Group members:
+
 Moiz Tanvir (i221932@nu.edu.pk)
+
 Talha Ali (i221971@nu.edu.pk)
+
 Irtaza Ahmed (i221975@nu.edu.pk)
 
 **Introduction**
 
-This report outlines the development and implementation of a real-time frequent itemset mining pipeline using the Amazon Metadata dataset. The project involves several stages including dataset downloading and sampling, pre-processing, setting up a streaming pipeline, implementing frequent itemset mining algorithms, integrating with a database, and providing necessary documentation.
+This report outlines the development and implementation of a real-time frequent itemset mining pipeline using the Amazon Metadata dataset. The project involves several stages including dataset downloading and sampling, pre-processing, setting up a streaming pipeline, implementing frequent itemset mining algorithms which includes (apriori algorithm, pcy algorithm and son algorithm), integrating with a database, and providing necessary documentation.
+
+**Dependencies:**
+
+JSON
+
+Kafka Producer
+
+Kafka Consumer
 
 **Dataset Downloading and Sampling**
 
@@ -22,15 +33,11 @@ A producer application was developed to stream the preprocessed data in real-tim
 
 **Frequent Itemset Mining**
 
-Three different frequent itemset mining algorithms were implemented in the consumer applications. The Apriori algorithm and the PCY algorithm were implemented in two consumers, with real-time insights and associations displayed through print statements. In the third consumer, a creative and innovative approach was taken to analyze the data, utilizing techniques such as sliding window approach, approximation techniques, and incremental processing to adapt the algorithms to the streaming environment.
+Three different frequent itemset mining algorithms were implemented in the consumer applications. The Apriori algorithm and the PCY algorithm were implemented in two consumers, with real-time insights and associations displayed through print statements. In the third consumer, we have used SON algorithm to analyze the data, utilizing techniques such as sliding window approach, approximation techniques, and incremental processing to adapt the algorithms to the streaming environment.
 
 **Database Integration**
 
 Non-relational or NoSQL databases such as MongoDB were chosen for database integration, as they are well-suited for this project. Each consumer was modified to connect to one of the databases and store the results, ensuring data persistence and scalability.
-
-**ReadME**
-
-The ReadME file contains comprehensive information about the project approach, including details on dataset sampling, pre-processing techniques, algorithm implementations, database integration, and execution instructions. It provides rationale for the chosen technologies and methodologies, helping users understand the project workflow and implementation details.
 
 **Enhancing Project Execution with a Bash Script**
 
