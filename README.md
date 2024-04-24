@@ -53,3 +53,5 @@ The real-time frequent itemset mining pipeline developed for the Amazon Metadata
 - Apriori ALgorithm Technique for Frequent Itemset Mining: https://www.geeksforgeeks.org/apriori-algorithm/
 - Frequent Pattern Mining Algorithms for Finding Associated Frequent Patterns for Data Streams: https://www.researchgate.net/publication/265788733_Frequent_Pattern_Mining_Algorithms_for_Finding_Associated_Frequent_Patterns_for_Data_Streams_A_Survey
 - Database (MongoDB): https://en.wikipedia.org/wiki/MongoDB
+- SON Algorithm: https://www.geeksforgeeks.org/the-son-algorithm-and-map-reduce/
+- The assignment was assisted by ChatGPT to certain extent
