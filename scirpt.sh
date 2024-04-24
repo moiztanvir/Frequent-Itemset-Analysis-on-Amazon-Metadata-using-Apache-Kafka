@@ -26,6 +26,10 @@ python consumer1.py &
 echo "Running Consumer2 (PCY)..."
 python consumer2.py &
 
+# Run Consumer3 (PCY)
+echo "Running Consumer3 (PCY)..."
+python consumer3.py &
+
 # Wait for all processes to finish
 wait
 
