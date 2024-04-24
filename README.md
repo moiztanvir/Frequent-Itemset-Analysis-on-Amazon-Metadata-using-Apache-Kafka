@@ -7,11 +7,11 @@ Talha Ali (i221971@nu.edu.pk)
 
 Irtaza Ahmed (i221975@nu.edu.pk)
 
-### Introduction
+## Introduction
 
 This report outlines the development and implementation of a real-time frequent itemset mining pipeline using the Amazon Metadata dataset. The project involves several stages including dataset downloading and sampling, pre-processing, setting up a streaming pipeline, implementing frequent itemset mining algorithms which includes (apriori algorithm, pcy algorithm and son algorithm), integrating with a database, and providing necessary documentation.
 
-## Dependencies:
+## Dependencies
 
 - [JSON](https://www.json.org/json-en.html)
 - [Kafka Producer](https://kafka-python.readthedocs.io/en/master/apidoc/KafkaProducer.html)
